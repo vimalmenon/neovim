@@ -167,13 +167,13 @@ vim.opt.scrolloff = 10
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Save the file on Ctrl s
-vim.keymap.set('n', '<C-s>', ':w!<CR>')
+vim.keymap.set('n', '<C-s>', ':w!<CR>', { desc = 'Save the file' })
 
 -- Quit the file whithout saving
-vim.keymap.set('n', '<C-q>', ':q!<CR>')
+vim.keymap.set('n', '<C-q>', ':q!<CR>', { desc = 'Quit the file without saving' })
 
 -- Quit the file whithout saving
-vim.keymap.set('n', '<F5>', ':checktime<CR>')
+vim.keymap.set('n', '<F5>', ':checktime<CR>', { desc = 'Refresh the buffer' })
 
 -- Select All
 vim.keymap.set('n', '<C-a>', 'gg0VG$', { desc = 'Select all the text' })
