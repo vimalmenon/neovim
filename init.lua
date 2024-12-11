@@ -138,7 +138,7 @@ vim.opt.updatetime = 250
 -- Displays which-key popup sooner
 vim.opt.timeoutlen = 300
 
--- vim.opt.termguicolors = true
+vim.opt.termguicolors = true
 
 -- Configure how new splits should be opened
 vim.opt.splitright = true
@@ -865,6 +865,7 @@ require('lazy').setup({
       vim.cmd.hi 'Comment gui=none'
     end,
   },
+  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
@@ -943,7 +944,7 @@ require('lazy').setup({
   --
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
+  require 'kickstart.plugins.lint',
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
