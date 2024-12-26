@@ -464,6 +464,15 @@ require('lazy').setup({
       },
     },
   },
+  -- This is show buffer as tabs at the top
+  {
+    'akinsho/bufferline.nvim',
+    version = '*',
+    dependencies = 'nvim-tree/nvim-web-devicons',
+    config = function()
+      require('bufferline').setup {}
+    end,
+  },
   { 'Bilal2453/luvit-meta', lazy = true },
   {
     -- Main LSP Configuration
