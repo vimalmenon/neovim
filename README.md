@@ -1,4 +1,5 @@
 # NVIM Config
-This is my Configuration for NVIM for my daily use.
+
+This is my NVIM configuration
 
 
