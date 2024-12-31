@@ -178,6 +178,10 @@ vim.keymap.set('n', '<F5>', ':checktime<CR>', { desc = 'Refresh the buffer' })
 -- Select All
 vim.keymap.set('n', '<C-a>', 'gg0VG$', { desc = 'Select all the text' })
 
+vim.keymap.set('n', '<leader>bn', ':bnext<CR>', { desc = 'Go to next buffer' })
+
+vim.keymap.set('n', '<leader>bp', ':bprevious<CR>', { desc = 'Go to previous buffer' })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
