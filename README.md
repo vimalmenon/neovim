@@ -8,6 +8,7 @@ This is my NVIM configuration
 
 
 #### Navigation
+- '<space>' is leader key
 - `\` to open side panel
 - `<ctrl> q` to quit
 - '<ctrl> h' move to left window
@@ -15,3 +16,6 @@ This is my NVIM configuration
 - '<ctrl> j' move to down window
 - '<ctrl> k' move to up window
 - '<space> sk' find the key binding
+- '<space> bn' go to next buffer
+- '<space> bp' got previous buffer
+- '<ctrl> s' saves the file
