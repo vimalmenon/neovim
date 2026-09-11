@@ -8,7 +8,7 @@ This is my NVIM configuration
 
 
 #### Navigation
-- '<space>' is leader key
+- `<space>` is leader key
 - `\` to open side panel
 - `<ctrl> q` to quit
 - '<ctrl> h' move to left window
