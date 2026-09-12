@@ -93,6 +93,14 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
+-- Make the LLVM compiler available to Treesitter on Windows.
+if vim.fn.has('win32') == 1 then
+  local llvm_bin = 'C:\\Program Files\\LLVM\\bin'
+  if vim.fn.isdirectory(llvm_bin) == 1 then
+    vim.env.PATH = llvm_bin .. ';' .. vim.env.PATH
+  end
+end
+
 -- [[ Setting options ]]
 -- See `:help vim.opt`
 -- NOTE: You can change these options as you wish!
@@ -922,32 +930,18 @@ require('lazy').setup({
   },
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
-    lazy = false,
+    branch = 'master',
     build = ':TSUpdate',
-    config = function()
-      require('nvim-treesitter').setup()
-      require('nvim-treesitter').install {
-        'bash',
-        'c',
-        'diff',
-        'html',
-        'lua',
-        'luadoc',
-        'markdown',
-        'markdown_inline',
-        'query',
-        'vim',
-        'vimdoc',
-      }
-
-      vim.api.nvim_create_autocmd('FileType', {
-        pattern = { 'bash', 'c', 'diff', 'html', 'lua', 'markdown', 'query', 'vim', 'vimdoc' },
-        callback = function(args)
-          vim.treesitter.start(args.buf)
-          vim.bo[args.buf].indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
-        end,
-      })
-    end,
+    main = 'nvim-treesitter.configs',
+    opts = {
+      ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
+      auto_install = true,
+      highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = { 'ruby' },
+      },
+      indent = { enable = true, disable = { 'ruby' } },
+    },
     -- There are additional nvim-treesitter modules that you can use to interact
     -- with nvim-treesitter. You should go explore a few and see what interests you:
     --

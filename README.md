@@ -19,3 +19,5 @@ This is my NVIM configuration
 - `<space> bn` go to next buffer
 - `<space> bp` got previous buffer
 - `<ctrl> s` saves the file
+- `:Telescope colorscheme` change the color scheme
+- `:Themery` Change color theme with live preview
