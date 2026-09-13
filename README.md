@@ -12,6 +12,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 
 
 #### Navigation
+
 - `o` Open a new line
 - `O` Open new line above
 - `i` Insert mode at beginner
@@ -23,26 +24,31 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `w` Move to beginning of word
 - `f <letter>` Go to word
 - `t <letter>` Go to work before
-- `.` Redo the step
+- `.` Repeat the step
 - `u` Undo the step
 - `\` Open side panel
 - `<space>` leader key
 
 
 ##### Insert / Append
+
 - `r` Replace a letter
 - `cw` Change word
 - `ciw` Change inner word
 - `ea` Insert at end of word
 - `bi` Insert at beginning of word
+- `viwc` Replace word and start inserting
 
 
 ###### Lazy Git
+
 - `<space> lg` Open lazy git
 - `p` Pull from upsteam
 - `P` Push to upsteam
 
+
 ###### Other Navigation
+
 - `<ctrl> q` Quit
 - `<ctrl> h` Move to left window
 - `<ctrl> l` Move to right window
@@ -52,15 +58,20 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<space> bp` Go to previous buffer
 - `<ctrl> s` saves the file
 
+
 ##### Change Color Theme
+
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
 
 ##### File Helper
+
 - `H` Show hidden files
 - `a` Create a new file
 - `i` Show file info
 
 
 ##### NVIM Helper
+
 - `<space> sk` Find the key binding
+
