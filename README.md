@@ -18,8 +18,9 @@ This is my NVIM configuration
 - `t <letter>` go to work before
 - `.` Redo the step
 - `u` Undo the step
+- `\` Open side panel
 - `<space>` leader key
-- `\` to open side panel
+- `<space> l g` Open lazy git
 - `<ctrl> q` to quit
 - `<ctrl> h` Move to left window
 - `<ctrl> l` Move to right window
