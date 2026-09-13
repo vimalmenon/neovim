@@ -13,13 +13,18 @@ This is my NVIM configuration
 - `I` Insert mode at start of line
 - `A` Insert mode at end of line
 - `e` Move to end of work
-- `<space>` is leader key
+- `b` move back of word
+- `f <letter>` go to word
+- `t <letter>` go to work before
+- `.` Redo the step
+- `u` Undo the step
+- `<space>` leader key
 - `\` to open side panel
 - `<ctrl> q` to quit
-- `<ctrl> h` move to left window
-- `<ctrl> l` move to right window
-- `<ctrl> j` move to down window
-- `<ctrl> k` move to up window
+- `<ctrl> h` Move to left window
+- `<ctrl> l` Move to right window
+- `<ctrl> j` Move to down window
+- `<ctrl> k` Move to up window
 - `<space> sk` find the key binding
 - `<space> bn` go to next buffer
 - `<space> bp` got previous buffer
