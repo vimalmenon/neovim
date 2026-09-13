@@ -16,6 +16,7 @@ This is my NVIM configuration
 - `b` Move back of word
 - `f <letter>` Go to word
 - `t <letter>` Go to work before
+- `r` Replace a letter
 - `.` Redo the step
 - `u` Undo the step
 - `\` Open side panel
@@ -32,12 +33,15 @@ This is my NVIM configuration
 - `<ctrl> l` Move to right window
 - `<ctrl> j` Move to down window
 - `<ctrl> k` Move to up window
-- `<space> sk` find the key binding
-- `<space> bn` go to next buffer
-- `<space> bp` got previous buffer
+- `<space> bn` Go to next buffer
+- `<space> bp` Go to previous buffer
 - `<ctrl> s` saves the file
 
 ##### Change Color Theme
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
+
+
+##### NVIM Helper
+- `<space> sk` Find the key binding
 
