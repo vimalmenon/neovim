@@ -10,7 +10,9 @@ This is my NVIM configuration
 #### Navigation
 - `o` Open a new line
 - `O` Open new line above
+- `i` Insert mode at beginner
 - `I` Insert mode at start of line
+- `a` Insert mode at end
 - `A` Insert mode at end of line
 - `e` Move to end of work
 - `b` Move back of word
