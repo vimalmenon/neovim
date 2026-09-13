@@ -2,6 +2,10 @@
 
 This is my NVIM configuration
 
+### Icons
+
+Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be installed and selected in the terminal running Neovim. The configuration currently enables Nerd Font icons.
+
 #### To Do List
 
 - [ ] Errors should give suggestion
@@ -60,4 +64,3 @@ This is my NVIM configuration
 
 ##### NVIM Helper
 - `<space> sk` Find the key binding
-
