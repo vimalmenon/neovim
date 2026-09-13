@@ -59,19 +59,19 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<ctrl> s` saves the file
 
 
-##### Change Color Theme
+###### Change Color Theme
 
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
 
-##### File Helper
+###### File Helper
 
 - `H` Show hidden files
 - `a` Create a new file
 - `i` Show file info
 
 
-##### NVIM Helper
+###### NVIM Helper
 
 - `<space> sk` Find the key binding
 
