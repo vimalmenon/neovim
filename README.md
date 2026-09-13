@@ -52,6 +52,11 @@ This is my NVIM configuration
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
 
+##### File Helper
+- `H` Show hidden files
+- `a` Create a new file
+- `i` Show file info
+
 
 ##### NVIM Helper
 - `<space> sk` Find the key binding
