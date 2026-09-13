@@ -21,6 +21,11 @@ This is my NVIM configuration
 - `u` Undo the step
 - `\` Open side panel
 - `<space>` leader key
+- `cw` Change word
+- `ciw` Change inner word
+- `ea` Insert at end of word
+- `bi` Insert at beginning of word
+
 
 ###### Lazy Git
 - `<space> l g` Open lazy git
