@@ -32,6 +32,15 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<space>` leader key
 
 
+#### Search
+
+- `/` Open search
+- `n` Find next occurance
+- `N` Find previous occurance
+- `<space> /` Telescope to search
+- `<space> <space>` Search for files with name
+
+
 #### Insert / Append
 
 - `r` Replace a letter
@@ -79,6 +88,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `a` Create a new file or directory
 - `i` Show file info
 - `r` Rename a file
+
 
 #### NVIM Helper
 
