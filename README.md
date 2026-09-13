@@ -16,6 +16,7 @@ This is my NVIM configuration
 - `A` Insert mode at end of line
 - `e` Move to end of work
 - `b` Move back of word
+- `w` Move to beginning of word
 - `f <letter>` Go to word
 - `t <letter>` Go to work before
 - `r` Replace a letter
@@ -30,7 +31,7 @@ This is my NVIM configuration
 
 
 ###### Lazy Git
-- `<space> l g` Open lazy git
+- `<space> lg` Open lazy git
 - `p` Pull from upsteam
 - `P` Push to upsteam
 
