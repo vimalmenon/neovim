@@ -74,9 +74,9 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 ###### File Helper
 
 - `H` Show hidden files
-- `a` Create a new file
+- `a` Create a new file or directory
 - `i` Show file info
-
+- `r` Rename a file
 
 ###### NVIM Helper
 
