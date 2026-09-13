@@ -19,11 +19,14 @@ This is my NVIM configuration
 - `w` Move to beginning of word
 - `f <letter>` Go to word
 - `t <letter>` Go to work before
-- `r` Replace a letter
 - `.` Redo the step
 - `u` Undo the step
 - `\` Open side panel
 - `<space>` leader key
+
+
+##### Insert / Append
+- `r` Replace a letter
 - `cw` Change word
 - `ciw` Change inner word
 - `ea` Insert at end of word
