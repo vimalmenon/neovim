@@ -54,9 +54,14 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<ctrl> l` Move to right window
 - `<ctrl> j` Move to down window
 - `<ctrl> k` Move to up window
+- `<ctrl> s` saves the file
+
+
+###### Buffer Operation
+
 - `<space> bn` Go to next buffer
 - `<space> bp` Go to previous buffer
-- `<ctrl> s` saves the file
+- `<space> bd` Delete the currect buffer
 
 
 ###### Change Color Theme
@@ -74,4 +79,3 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 ###### NVIM Helper
 
 - `<space> sk` Find the key binding
-
