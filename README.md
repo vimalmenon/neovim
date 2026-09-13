@@ -42,14 +42,14 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `viwc` Replace word and start inserting
 
 
-##### Lazy Git
+#### Lazy Git
 
 - `<space> lg` Open lazy git
 - `p` Pull from upsteam
 - `P` Push to upsteam
 
 
-##### Other Navigation
+#### Other Navigation
 
 - `<ctrl> q` Quit
 - `<ctrl> h` Move to left window
@@ -60,26 +60,26 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `0v$` \ `^v$` Select whole line
 
 
-##### Buffer Operation
+#### Buffer Operation
 
 - `<space> bn` Go to next buffer
 - `<space> bp` Go to previous buffer
 - `<space> bd` Delete the currect buffer
 
 
-##### Change Color Theme
+#### Change Color Theme
 
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
 
 
-##### File Helper
+#### File Helper
 
 - `H` Show hidden files
 - `a` Create a new file or directory
 - `i` Show file info
 - `r` Rename a file
 
-##### NVIM Helper
+#### NVIM Helper
 
 - `<space> sk` Find the key binding
