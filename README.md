@@ -55,6 +55,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<ctrl> j` Move to down window
 - `<ctrl> k` Move to up window
 - `<ctrl> s` saves the file
+- `0v$` \ `^v$` Select whole line
 
 
 ###### Buffer Operation
@@ -68,6 +69,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 
 - `:Telescope colorscheme` change the color scheme
 - `:Themery` Change color theme with live preview
+
 
 ###### File Helper
 
