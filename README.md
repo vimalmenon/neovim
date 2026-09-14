@@ -24,6 +24,9 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `e` Move to end of work
 - `b` Move back of word
 - `w` Move to beginning of word
+- `r` Replace
+- `p` Past in next line
+- `P` Past in previous line
 - `f <letter>` Go to word
 - `t <letter>` Go to work before
 - `.` Repeat the step
@@ -32,9 +35,14 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<space>` leader key
 
 
-#### Search
+#### Copy / Paste
 
-- `/` Open search
+- `"<letter> y` Copy to that register
+- `"<letter> p` Past from that register
+
+#### Search / Find
+
+- `/` Find text
 - `n` Find next occurance
 - `N` Find previous occurance
 - `<space> /` Telescope to search
