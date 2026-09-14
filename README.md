@@ -35,10 +35,12 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `<space>` leader key
 
 
-#### Copy / Paste
+#### Copy / Paste / Record
 
 - `"<letter> y` Copy to that register
 - `"<letter> p` Past from that register
+- `q<letter> action` Record the action
+- `@<letter>` Repeat the action
 
 #### Search / Find
 
@@ -86,9 +88,9 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 
 #### Change Color Theme
 
-- `:Telescope colorscheme` change the color scheme
+- `:Telescope colorscheme` Change the color scheme
+- `:Telescope registers` Shows the retister
 - `:Themery` Change color theme with live preview
-
 
 #### File Helper
 
