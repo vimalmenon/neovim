@@ -33,6 +33,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `u` Undo the step
 - `\` Open side panel
 - `<space>` leader key
+- `*` To find occurance
 
 
 #### Copy / Paste / Record
