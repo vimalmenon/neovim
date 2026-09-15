@@ -38,7 +38,7 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 #### Copy / Paste / Record
 
 - `"<letter> y` Copy to register
-- `"<letter> p` Past from register
+- `"<letter> p` Paste from register
 - `q<letter> action` Record the action
 - `@<letter>` Repeat the action
 
