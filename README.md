@@ -36,12 +36,14 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `*` To find occurance
 
 
-#### Copy / Paste / Record
+#### Copy / Paste / Recorde
+
 
 - `"<letter> y` Copy to register
 - `"<letter> p` Paste from register
 - `q<letter> action` Record the action
 - `@<letter>` Repeat the action
+
 
 #### Search / Find
 
@@ -93,12 +95,19 @@ Icons require a [Nerd Font](https://www.nerdfonts.com/font-downloads) to be inst
 - `:Telescope registers` Shows the retister
 - `:Themery` Change color theme with live preview
 
+
 #### File Helper
 
 - `H` Show hidden files
 - `a` Create a new file or directory
 - `i` Show file info
 - `r` Rename a file
+
+
+#### Other
+
+- `<ctrl> \ + <ctrl> n` Remove focus from terminal
+- `<ctrl> w` Changes to tab/ window
 
 
 #### NVIM Helper
